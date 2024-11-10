@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50251c0-e29c-4072-a3c5-1e81999c1e60" name="Changes" comment="commit1" />
+    <list default="true" id="d50251c0-e29c-4072-a3c5-1e81999c1e60" name="Changes" comment="commit1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HammurabiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi/Hamurabi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi/Hamurabi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/Hamurabi/HamurabiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/Hamurabi/HamurabiTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,20 +30,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Hamurabi.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.HamurabiTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Hamurabi [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Hamurabi.executor": "Run",
+    "JUnit.HamurabiTest.executor": "Run",
+    "JUnit.HamurabiTest.testHarvest.executor": "Run",
+    "JUnit.HamurabiTest.testImmigrants.executor": "Run",
+    "JUnit.HamurabiTest.testNewCostOfLand.executor": "Run",
+    "JUnit.HamurabiTest.testPlagueDeaths1.executor": "Run",
+    "JUnit.HamurabiTest.testPlagueDeaths2.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Hamurabi [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dmishra/DeeptiProjects/Hamurabi",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/Hamurabi" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Hamurabi">
     <configuration name="Hamurabi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.Hamurabi.Hamurabi" />
@@ -66,10 +84,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HamurabiTest.testHarvest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hamurabi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.Hamurabi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.Hamurabi" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.Hamurabi.HamurabiTest" />
+      <option name="METHOD_NAME" value="testHarvest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamurabiTest.testImmigrants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hamurabi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.Hamurabi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.Hamurabi" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.Hamurabi.HamurabiTest" />
+      <option name="METHOD_NAME" value="testImmigrants" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamurabiTest.testNewCostOfLand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hamurabi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.Hamurabi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.Hamurabi" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.Hamurabi.HamurabiTest" />
+      <option name="METHOD_NAME" value="testNewCostOfLand" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Hamurabi" />
         <item itemvalue="JUnit.HamurabiTest" />
+        <item itemvalue="JUnit.HamurabiTest.testHarvest" />
+        <item itemvalue="JUnit.HamurabiTest.testNewCostOfLand" />
+        <item itemvalue="JUnit.HamurabiTest.testImmigrants" />
       </list>
     </recent_temporary>
   </component>
@@ -90,31 +159,19 @@
       <option name="project" value="LOCAL" />
       <updated>1731269133414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit1">
+      <option name="closed" value="true" />
+      <created>1731269803514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731269803514</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
     <option name="LAST_COMMIT_MESSAGE" value="commit1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi/Hamurabi.java</url>
-          <line>202</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi/Hamurabi.java</url>
-          <line>192</line>
-          <properties class="com.zipcodewilmington.Hamurabi.Hamurabi" method="askHowManyAcresToPlant">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
