@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d50251c0-e29c-4072-a3c5-1e81999c1e60" name="Changes" comment="commit1">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HammurabiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi/Hamurabi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi/Hamurabi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/Hamurabi/HamurabiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/Hamurabi/HamurabiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/Hamurabi" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
@@ -39,6 +37,7 @@
     "JUnit.HamurabiTest.testNewCostOfLand.executor": "Run",
     "JUnit.HamurabiTest.testPlagueDeaths1.executor": "Run",
     "JUnit.HamurabiTest.testPlagueDeaths2.executor": "Run",
+    "JUnit.HamurabiTest.testStarvationDeaths.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.Hamurabi [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -84,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamurabiTest.testHarvest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HamurabiTest.testPlagueDeaths1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hamurabi" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +93,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.Hamurabi" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.Hamurabi.HamurabiTest" />
-      <option name="METHOD_NAME" value="testHarvest" />
+      <option name="METHOD_NAME" value="testPlagueDeaths1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamurabiTest.testImmigrants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HamurabiTest.testPlagueDeaths2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hamurabi" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +109,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.Hamurabi" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.Hamurabi.HamurabiTest" />
-      <option name="METHOD_NAME" value="testImmigrants" />
+      <option name="METHOD_NAME" value="testPlagueDeaths2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamurabiTest.testNewCostOfLand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HamurabiTest.testStarvationDeaths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hamurabi" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +125,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.Hamurabi" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.Hamurabi.HamurabiTest" />
-      <option name="METHOD_NAME" value="testNewCostOfLand" />
+      <option name="METHOD_NAME" value="testStarvationDeaths" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Hamurabi" />
+        <item itemvalue="JUnit.HamurabiTest.testStarvationDeaths" />
         <item itemvalue="JUnit.HamurabiTest" />
-        <item itemvalue="JUnit.HamurabiTest.testHarvest" />
-        <item itemvalue="JUnit.HamurabiTest.testNewCostOfLand" />
-        <item itemvalue="JUnit.HamurabiTest.testImmigrants" />
+        <item itemvalue="JUnit.HamurabiTest.testPlagueDeaths1" />
+        <item itemvalue="JUnit.HamurabiTest.testPlagueDeaths2" />
       </list>
     </recent_temporary>
   </component>
@@ -173,5 +172,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
     <option name="LAST_COMMIT_MESSAGE" value="commit1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/Hamurabi/HamurabiTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
